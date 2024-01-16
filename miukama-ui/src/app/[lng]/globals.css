@@ -1,0 +1,10 @@
+.user-popover .MuiPaper-root::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.fullpage-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}

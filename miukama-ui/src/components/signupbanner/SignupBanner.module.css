@@ -1,0 +1,44 @@
+.faq {
+  background-color: #b20000;
+  background-image: url('/faqsignup.png');
+  padding-bottom: 42px;
+}
+.box1 {
+  padding-left: 200px;
+  padding-top: 70px;
+}
+.content {
+  font-style: normal;
+  padding-bottom: 27px;
+}
+
+.box2 {
+  margin-top: -125px;
+  padding-left: 40px;
+}
+
+.button {
+  color: #d62028;
+  font-weight: 500px;
+}
+
+@media (min-width: 768px) {
+  .faq {
+    margin-top: 228px;
+    margin-bottom: 110px;
+  }
+}
+
+@media (max-width: 900px) {
+  .box1 {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .box2 {
+    margin-top: 0px;
+  }
+  .sideImage {
+    text-align: center;
+    width: 100%;
+  }
+}

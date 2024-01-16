@@ -1,0 +1,40 @@
+.home_carousel_left_icon {
+  position: absolute !important;
+  outline: 0;
+  z-index: 1000;
+  min-width: 43px;
+  min-height: 43px;
+  opacity: 0.7;
+  cursor: pointer;
+  padding: 16px 16px;
+  left: 60px;
+  transition: 'all .5';
+}
+
+.home_carousel_right_icon {
+  position: absolute !important;
+  outline: 0;
+  z-index: 1000;
+  min-width: 43px;
+  min-height: 43px;
+  opacity: 0.7;
+  cursor: pointer;
+  padding: 16px 16px;
+  right: 60px;
+  transition: 'all .5';
+}
+
+.carousel_container {
+  position: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_carousel_left_icon {
+    background: rgb(0 0 0 / 50%);
+    left: 0;
+  }
+  .home_carousel_right_icon {
+    background: rgb(0 0 0 / 50%);
+    right: 0;
+  }
+}

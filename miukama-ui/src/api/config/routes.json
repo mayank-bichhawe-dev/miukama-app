@@ -1,0 +1,56 @@
+{
+  "userRoute": {
+    "signUp": "auth/register",
+    "resetPassword": "auth/password/reset",
+    "updateUserPassword": "auth/password/update",
+    "forgotPassword": "auth/password/forgot",
+    "login": "auth/login",
+    "getUser": "user/me",
+    "profileUpdate": "user/me/update"
+  },
+  "socialLogin": {
+    "googleLogin": "google/login",
+    "facebookLogin": "facebook/login"
+  },
+  "galleryRoutes": {
+    "gallery": "gallery"
+  },
+  "categoryRoutes": {
+    "category": "category"
+  },
+  "productRoutes": {
+    "product": "product"
+  },
+  "faqRoutes": {
+    "faq": "faq/user"
+  },
+  "notificationRoutes": {
+    "notification": "notification",
+    "notificationCount": "notification/count",
+    "readAll": "notification/read-all",
+    "read": "notification/read"
+  },
+  "wishlistRoutes": {
+    "wishlist": "wishlist"
+  },
+  "postRoutes": {
+    "post": "post"
+  },
+  "countProductRoutes": {
+    "countProduct": "dashboard/count"
+  },
+  "publicRoutes": {
+    "gallery": "homePage/gallery",
+    "product": "homePage/product"
+  },
+  "planRoutes": {
+    "plan": "plan",
+    "userPlan": "userPlan"
+  },
+  "allUserRoutes": {
+    "user": "admin/user"
+  },
+  "contactRoutes": {
+    "contact": "contact"
+  }
+}

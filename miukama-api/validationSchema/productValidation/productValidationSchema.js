@@ -1,0 +1,47 @@
+const productSchemaBody = {
+  type: 'object',
+  properties: {
+    categoryId: { type: 'string' },
+    itemName: { type: 'string' },
+    itemModel: { type: 'string' },
+    itemProductionNumber: { type: 'string' },
+    itemManufacturer: { type: 'string' },
+    yearOfOrigin: { type: 'string' },
+    color: { type: 'string' },
+    condition: { type: 'string' },
+    owner: { type: 'string' },
+    givenBy: { type: 'string' },
+    loanedBy: { type: 'string' },
+    description: { type: 'string' },
+    priceOfOrigin: { type: 'string', pattern: '^[0-9]+$' },
+    priceOfPurchase: { type: 'string', pattern: '^[0-9]+$' },
+    priceOfCurrent: { type: 'string', pattern: '^[0-9]+$' },
+    visibility: { type: 'string' },
+  },
+  required: [
+    'categoryId',
+    'itemName',
+    'itemModel',
+    'itemProductionNumber',
+    'itemManufacturer',
+    'yearOfOrigin',
+    'color',
+    'condition',
+    'owner',
+    'givenBy',
+    'loanedBy',
+    'description',
+    'priceOfOrigin',
+    'priceOfPurchase',
+    'priceOfCurrent',
+    'visibility',
+  ],
+};
+const productSchemaParams = {
+  type: 'object',
+  properties: {
+    id: { type: 'integer' },
+  },
+  required: ['id'],
+};
+module.exports = { productSchemaBody, productSchemaParams };

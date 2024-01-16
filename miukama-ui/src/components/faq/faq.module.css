@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 29px !important;
+  margin-bottom: 13px !important;
+}
+
+.description {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 26px !important;
+  text-align: center !important;
+}
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}

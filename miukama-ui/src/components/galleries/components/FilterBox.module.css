@@ -1,0 +1,14 @@
+.filter_box {
+  display: flex;
+  padding: 6px;
+  justify-content: flex-end;
+  background-color: #571918;
+}
+
+.filter_box button {
+  background-color: transparent;
+}
+
+.active {
+  background-color: #b20000 !important;
+}

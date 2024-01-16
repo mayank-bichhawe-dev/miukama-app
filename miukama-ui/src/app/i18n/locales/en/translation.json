@@ -1,0 +1,431 @@
+{
+  "headers": {
+    "navigation": {
+      "home": "Home",
+      "faq": "FAQ",
+      "galleries": "Galleries",
+      "sellOnMiukama": "Sell on Miukama",
+      "pricing": "Pricing",
+      "signup": "Signup",
+      "login": "Login",
+      "help": "Help & Contact"
+    },
+    "logout": {
+      "graphicDesigner": "Graphic Designer",
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "changePassword": "Change Password",
+      "logout": "logout"
+    }
+  },
+  "home": {
+    "title1": "Welcome to",
+    "title2": "Collector’s Services ",
+    "title3": "of",
+    "title4": "Miukama ",
+    "search": "Search in MIUKAMA",
+    "description1": "Are you tired of keeping track of your valuable collectibles on  paper or in spreadsheets? Do you wish there was an easier way to  manage and organize your collections online ?",
+    "description2": "Look no further than our collector service Miukama",
+    "description3": "Miukama service is for collectors, hobbyists, and virtual museums to collect, categorize, and manage various types of items in a centralized and digital way. Miukama offers features",
+    "description4": "such as item categorization, image uploading, and organization",
+    "description5": ", and can be used to manage collections of items such as stamps, coins,art pieces, antiques, and more.",
+    "description6": "The collected items can be",
+    "description7": " accessed and viewed online",
+    "description8": ", and the service may also offer social networking features, allowing collectors to connect with others who share their interests.",
+    "largestGalleries": "Largest Galleries",
+    "popularItems": "POPULAR items",
+    "content": "Our collector service is a one-stop-shop for collectors, hobbyists, and virtual museums looking to digitize and organize their valuable items. With our easy-to-use platform, you can quickly and easily categorize your items, upload images, and keep track of important information such as purchase price, date acquired, and more.",
+    "signup": "SIGNUP",
+    "carousel": "RESOURCES FOR GETTING STARTED",
+    "footer": {
+      "stay": "Stay in the loop",
+      "join": "Join our mailing list to stay in the loop with our newest feature releases, drops and tips and tricks for navigating.",
+      "emailAddress": "Your email address",
+      "subscribes": " Subscribes",
+      "miukama": "2023 Miukama",
+      "marketplace": {
+        "marketplace": "Marketplace",
+        "allArts": "All Arts",
+        "new": "New",
+        "art": "Art",
+        "music": "Music",
+        "domainNames": "Domain Names",
+        "virtualWorlds": "Virtual Worlds"
+      },
+      "myAccount": {
+        "account": "My Account",
+        "profile": "My Profile",
+        "collections": "My Collections",
+        "favourites": "My Favourites"
+      },
+      "resources": {
+        "resources": "Resources",
+        "helpCenter": "Help Center",
+        "platformStatus": "Platform Status",
+        "partners": "Partners",
+        "suggestions": "Suggestions",
+        "discordCommunity": "Discord Community",
+        "privacyPolicy": "privacy policy",
+        "termsAndCondition": "terms and conditions"
+      }
+    }
+  },
+  "gallery": {
+    "dashboards": {
+      "galleries": "Galleries",
+      "dashboard": "Dashboard"
+    },
+    "button": {
+      "public": "Public",
+      "private": "Private",
+      "addGallery": "Add Gallery",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "dataTable": {
+      "sno": "Sr no",
+      "product": "Product",
+      "ownerName": "Owner Name",
+      "totalItems": "Total Items",
+      "updatedAt": "Last Modified",
+      "action": "Actions"
+    },
+    "searchGallery": {
+      "search": "Search...",
+      "selectGallery": "Select Gallery"
+    },
+    "addGallery": {
+      "categoryName": "Enter category name",
+      "description": "Description (optional):",
+      "type": "type here!",
+      "visibility": "Visibility:",
+      "public": "Public",
+      "private": "Private",
+      "validation": {
+        "categoryName": "Please enter name",
+        "visibility": "Please select your visibility"
+      }
+    },
+    "editGallery": {
+      "editGallery": "Edit Gallery"
+    }
+  },
+  "wishlist": {
+    "myWishlist": "My Wishlist Items",
+    "dashboard": "Dashboard"
+  },
+  "myItem": {
+    "myItems": "My Items",
+    "dashboard": "Dashboard",
+    "button": "Add Product"
+  },
+  "product": {
+    "welcomeBack": " Welcome Back",
+    "search": "Search in MIUKAMA",
+    "viewAll": "View All",
+    "footer": "Copyright © 2023 Miukama. All rights reserved",
+    "productCardName": {
+      "myItem": "My Item",
+      "publicItems": "Public Items",
+      "privateItems": "Private Items",
+      "myCategories": "My Categories",
+      "myWishlist": "My Wishlist",
+      "todays": "Today"
+    },
+    "addProduct": {
+      "dashboard": "Dashboard",
+      "editItem": "Edit Item",
+      "addNewItem": "Add New Item",
+      "myItem": "My Item",
+      "image": "Only PNG, JPEG, JPG format images are allowed to 1MB in size.",
+      "productForm": {
+        "itemName": "Item Name:",
+        "enterItemName": "Enter item name",
+        "description": "Description:",
+        "typeHere": "Type here",
+        "itemManufacturer": "Item Manufacturer:",
+        "enterManufacturer": "Enter manufacturer",
+        "condition": "Condition:",
+        "new": "new",
+        "old": "old",
+        "productionDate": "Production Date",
+        "priceOfOrigin": "Price Of Origin:",
+        "enterPriceOfOrigin": "Enter price of origin",
+        "priceOfPurchase": "Price Of Purchase:",
+        "enterPriceOfPurchase": "Enter price of purchase",
+        "priceOfCurrent": "Price Of current:",
+        "enterPriceOfCurrent": "Enter price of current",
+        "productNumber": "Product Number:",
+        "enterProductionNumber": "Enter production number",
+        "category": "Category:",
+        "allCategory": "All Category",
+        "subCategory": "Sub-Category (if exist):",
+        "selectSubCategory": "Select Sub-Category",
+        "owner": "Owner:",
+        "enterOwnerName": "Enter Owner Name",
+        "color": "Color:",
+        "productModel": "Product Model:",
+        "enterProductModel": "Enter product model",
+        "givenBy": "Given By:",
+        "enterGivenByName": "Enter given by name",
+        "loaner": "Loaner:",
+        "enterLoaner": "Enter loaner",
+        "visibility": "Visibility:",
+        "validation": {
+          "categoryId": "Category id field is required",
+          "itemName": "Item name field is required",
+          "description": "Description field is required",
+          "itemManufacturer": "Item manufaturer field is required",
+          "yearOfOrigin": "Production Date field is required",
+          "priceOfPurchase": "Price of purchace field is required",
+          "priceOfCurrent": "Price of Current field is required",
+          "priceOfOrigin": "Price of origin field is required",
+          "itemProductionNumber": "Item production field number is required",
+          "owner": "Owner field is required",
+          "color": "Color field is required",
+          "itemModel": "Item model field is required",
+          "givenBy": "Givenby field is required",
+          "loanedBy": "Lonedby field is required"
+        }
+      }
+    }
+  },
+  "category": {
+    "title": {
+      "my_categories1": "My Categories",
+      "dashboard": "Dashboard",
+      "search_in_miukama": "Search in MIUKAMA",
+      "add_Category": "Add Category",
+      "public": "Public",
+      "private": "Private",
+      "total_category": "Total Category"
+    },
+    "table_head": {
+      "sr_no.": "Sr no.",
+      "category_name": "Category Name",
+      "public_item": "Public Item",
+      "private_item": "Private Item",
+      "description": "Description",
+      "created_at": "Created At",
+      "action": "Action",
+      "view_all": "View All ↗"
+    },
+    "add_category": {
+      "add_category_title1": "Add Category",
+      "dashboard": "Dashboard",
+      "categories": "Categories",
+      "title": "Add Category",
+      "category_name": "Category Name:",
+      "enter_category_name": "Enter category name",
+      "sub_category_(optional)": "Sub-Category (optional) :",
+      "sub_category": "Sub-Category",
+      "add_new": "Add SubCategory",
+      "gallery": "Gallery:",
+      "select_gallery": "Select Gallery",
+      "description": "Description (optional):",
+      "type_here": "Type here!",
+      "visibility": "Visibility:",
+      "public": "public",
+      "private": "private",
+      "cancel": "Cancel",
+      "save": "Save",
+      "validation": {
+        "enter_category": "Please enter your category",
+        "select_gallery": "Please select your gallery",
+        "select_visibility": "Please select your visibility"
+      }
+    },
+    "edit_category": {
+      "edit_category_title1": "Edit Category",
+      "dashboard": "Dashboard",
+      "categories": "Categories",
+      "edit_category_title2": "Edit Category",
+      "category_name": "Category Name",
+      "enter_category_name": "Enter category name",
+      "sub_category_(optional)": "Sub-Category (optional):",
+      "sub_category": "Sub-Category",
+      "add_new": "Add New",
+      "gallery": "Gallery",
+      "select_gallery": "Select Gallery",
+      "description": "Description (optional):",
+      "type_here": "Type here!",
+      "visibility": "Visibility:",
+      "private": "private",
+      "public": "public",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "allCategory": "All Categories"
+  },
+  "signup": {
+    "title": "Create Account",
+    "label_first_name": "First Name",
+    "placeholder_first_name": "First Name",
+    "label_last_name": "Last Name",
+    "placeholder_last_name": "Last Name",
+    "email": "Enter email address",
+    "placeholder_email": "Enter email address",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "terms_conditions": "I have read and agree the terms & conditions",
+    "signup_button": "Signup",
+    "validation": {
+      "first_name": "Please enter your first name",
+      "last_name": "Please enter your last name",
+      "required_email": "Please enter Email",
+      "email": "Enter valid email",
+      "password": "Please enter password",
+      "password_message": "password must contain 8 letters, one capital letter, one small, one number and one symbol and special character",
+      "confirm_password": "Confirm password is required field",
+      "match_confirm_password": "Password and Confirm password must match",
+      "terms_conditions": "You must accept the Terms & conditions to proceed"
+    }
+  },
+  "forget_password": {
+    "title": "Forgot Password 🔒",
+    "instruction": "Enter the email address associated with your account. A link will be sent to your email address to reset your password.",
+    "email": "Email",
+    "enter_email": "Enter email address",
+    "send_link": "Send Link",
+    "back_to_login": "Back to login",
+    "validation": {
+      "required_email": "Please enter email address",
+      "email": "Please enter valid email address"
+    }
+  },
+  "redirect_email": {
+    "title": "Check your mail",
+    "instruction": "We have sent password reset instructions to your email address",
+    "go_to_email": "go to email",
+    "back_to_login": "Back to login"
+  },
+  "loginForm": {
+    "login": "Login",
+    "credential": "Enter your credential to access your account.",
+    "or": "Or",
+    "emailAddress": "Email Address",
+    "enterEmailAddress": "Enter email address",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "button": "Login",
+    "account": "Don’t have an account?",
+    "registerHere": "Register here!",
+    "validation": {
+      "email": "Please enter email",
+      "password": "Please enter password"
+    }
+  },
+  "resetPassword": {
+    "createNewPassword": "Create New Password",
+    "subtitle1": "Your new password should be different from previous used passwords.",
+    "newPassword": "New Password:",
+    "confirmNewPassword": "Confirm New Password:",
+    "button": "Reset Password",
+    "validation": {
+      "requiredPassword": "New password is required field",
+      "matchPassword": "Password Should contain one capital letter,one small,one number and one symbol",
+      "requiredConfirmPassword": "Confirm new password is required field",
+      "matchConfirmPassword": "Password and Confirm must match"
+    }
+  },
+  "my_profile": {
+    "userProfile": "User Profile",
+    "addUser": "Add User",
+    "edit": "Edit Profile",
+    "title": " My Profile",
+    "first_name": "First Name",
+    "placeholder_first_name": "First Name",
+    "last_name": "Last Name:",
+    "placeholder_last_name": "Last Name",
+    "email": "Email",
+    "placeholder_email": "sample@gmail.com",
+    "contact_number": "Contact Number:",
+    "placeholder_contact": "14655778152",
+    "address": "Address:",
+    "placeholder_address": "USA LLC Township",
+    "cancel": "Cancel",
+    "save": "Save",
+    "validation": {
+      "first_name": "Please Enter First Name",
+      "last_name": "Please Enter Last Name",
+      "valid_email": "Please Enter Valid Email",
+      "enter_email": "Please Enter Email",
+      "not_valid_email": "Entered Email is not Valid",
+      "contact_length": "Please enter contact no between 7 to 10 digits",
+      "valid_contact_number": "Please Enter Valid Contact Number",
+      "not_valid_contact": "Contact number is not valid",
+      "valid_address": "Please Enter Valid Address"
+    }
+  },
+  "setting": {
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "editProfile": "Edit Profile",
+    "changePassword": {
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password:",
+      "enterCurrentPassword": "Enter current password",
+      "newPassword": "New Password:",
+      "enterNewPassword": "Enter new password",
+      "confirmNewPassword": "Confirm New Password:",
+      "confirmNewPasswords": "Confirm new password",
+      "validation": {
+        "oldPassword": "Current password is required field",
+        "oldPasswordMin": "Current password must be at least 8 characters",
+        "oldPasswordMatches": "New password Should contain one capital letter,one small,one number and one symbole",
+        "password": "New password is required field",
+        "passwordMin": "New password must be at least 8 characters",
+        "passwordMatches": "New password Should contain one capital letter,one small,one number and one symbole",
+        "confirmPassword": "Confirm new password is required field",
+        "confirmPasswordOneOf": "New password and Confirm new password must match",
+        "confirmPasswordNotOneOf": "Old password and new password should be different"
+      },
+      "button": {
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "notifications": {
+      "notifications": "Notifications",
+      "orderConfirmation": "Order Confirmation",
+      "orderConfirmationMessage": "You will be notifications when customer order any products",
+      "orderDelivered": "Order Delivered",
+      "orderDeliveredMessage": "You will be notifications once the order is delivered",
+      "emailNotification": "Email Notification",
+      "emailNotificationMessage": "Turn on email notification to get updates through email"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Home/FAQs",
+    "description1": "Find solutions to common problems and queries in our FAQ",
+    "description2": " section.Save time and find answers to frequently asked",
+    "description3": "questions in our FAQ page."
+  },
+  "user": {
+    "title": {
+      "users": "Users",
+      "myProfile": "Add My Profile",
+      "addProfile": "Add New Profile",
+      "editProfile": "Edit Profile"
+    },
+    "dataTitle": {
+      "admin": "Admin",
+      "dashboard": {
+        "myProfile": "Dashboard"
+      },
+      "user": "Admin > User"
+    },
+    "button": {
+      "addUser": "Add User"
+    },
+    "displayList": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "contact": "Contact",
+      "address": "Address",
+      "action": "Action"
+    }
+  }
+}

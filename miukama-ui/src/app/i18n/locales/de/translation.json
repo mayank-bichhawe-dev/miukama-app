@@ -1,0 +1,429 @@
+{
+  "headers": {
+    "navigation": {
+      "home": "Thuis",
+      "faq": "FAQ",
+      "galleries": "Galerijen",
+      "sellOnMiukama": "Verkoop op Miukama",
+      "pricing": "Prijzen",
+      "signup": "Aanmelden",
+      "login": "Login",
+      "help": "Helpism & Contact"
+    },
+    "logout": {
+      "graphicDesigner": "Graphicism Designer",
+      "dashboard": "Dashboardism",
+      "profile": "Profileism",
+      "changePassword": "Change Passwordism",
+      "logout": "logoutism"
+    }
+  },
+  "home": {
+    "title1": "Welcome to ",
+    "title2": "Collector’s Services",
+    "title3": "of",
+    "title4": "Miukama ",
+    "search": "Search in MIUKAMA",
+    "description1": "Are you tired of keeping track of your valuable collectibles on  paper or in spreadsheets? Do you wish there was an easier way to  manage and organize your collections online ?",
+    "description2": "Look no further than our collector service Miukama",
+    "description3": "Miukama service is for collectors, hobbyists, and virtual museums to  collect, categorize, and manage various types of items in a centralized and digital way. Miukama offers features",
+    "description4": "such as item categorization, image uploading, and organization",
+    "description5": ", and can be used to manage collections of items such as stamps, coins,art pieces, antiques, and more.",
+    "description6": "The collected items can be",
+    "description7": " accessed and viewed online",
+    "description8": ", and the service may also offer social networking features, allowing collectors to connect with others who share their interests.",
+    "largestGalleries": "Largest Galleries",
+    "popularItems": "POPULAR items",
+    "content": "Our collector service is a one-stop-shop for collectors, hobbyists, and virtual museums looking to digitize and organize their valuable items. With our easy-to-use platform, you can quickly and easily categorize your items, upload images, and keep track of important information such as purchase price, date acquired, and more.",
+    "signup": "SIGNUP",
+    "carousel": "RESOURCES FOR GETTING STARTED",
+    "footer": {
+      "stay": "Stayism in the loop",
+      "join": "Joinism our mailing list to stay in the loop with our newest feature releases, drops and tips and tricks for navigating.",
+      "emailAddress": "Yourism email address",
+      "subscribes": " Subscribeisms",
+      "miukama": "2023 Miukamaism",
+      "marketplace": {
+        "marketplace": "Marketplaceism",
+        "allArts": "All Artsism",
+        "new": "Newism",
+        "art": "Artism",
+        "music": "Musicism",
+        "domainNames": "Domain Namesism",
+        "virtualWorlds": "Virtual Worldsism"
+      },
+      "myAccount": {
+        "account": "My Accountism",
+        "profile": "My Profileism",
+        "collections": "My Collectionsism",
+        "favourites": "My Favouritesism"
+      },
+      "resources": {
+        "resources": "Resourcesism",
+        "helpCenter": "Help Centerism",
+        "platformStatus": "Platform Statusism",
+        "partners": "Partnersism",
+        "suggestions": "Suggestionsism",
+        "discordCommunity": "Discord Communityism"
+      }
+    }
+  },
+  "gallery": {
+    "dashboards": {
+      "galleries": "Galleriesism",
+      "dashboard": "Dashboardism"
+    },
+    "button": {
+      "public": "Publicism",
+      "private": "Privateism",
+      "addGallery": "Add Galleryism",
+      "cancel": "Cancelism",
+      "save": "Saveism"
+    },
+    "dataTable": {
+      "sno": "Sr noism",
+      "product": "Productism",
+      "ownerName": "Owner Nameism",
+      "totalItems": "Total Itemsism",
+      "updatedAt": "Last Modifiedism",
+      "action": "Actionsism"
+    },
+    "searchGallery": {
+      "search": "Searchism...",
+      "selectGallery": "Select Gallery"
+    },
+    "addGallery": {
+      "categoryName": "Enter category nameism",
+      "description": "Descriptionism (optional):",
+      "type": "type hereism!",
+      "visibility": "Visibilityism:",
+      "public": "Publicism",
+      "private": "Privateism",
+      "validation": {
+        "categoryName": "Please enterism name",
+        "visibility": "Please selectism your visibility"
+      }
+    },
+    "editGallery": {
+      "editGallery": "Edit Galleryism"
+    }
+  },
+  "wishlist": {
+    "myWishlist": "My Wishlist Itemsism",
+    "dashboard": "Dashboardism"
+  },
+  "myItem": {
+    "myItems": "My Itemsism",
+    "dashboard": "Dashboardism",
+    "button": "Add Productism"
+  },
+  "product": {
+    "welcomeBack": " Welcome Backism",
+    "search": "Search in MIUKAMAism",
+    "viewAll": "View Allism",
+    "footer": "Copyrightism © 2023 Miukama. Allism rights reserved",
+    "productCardName": {
+      "myItem": "My Itemism",
+      "publicItems": "Public Itemsism",
+      "privateItems": "Private Itemsism",
+      "myCategories": "My Categoriesism",
+      "myWishlist": "My Wishlistism",
+      "todays": "Todayism"
+    },
+    "addProduct": {
+      "dashboard": "Dashboardism",
+      "editItem": "Edit Itemism",
+      "addNewItem": "Add New Itemism",
+      "myItem": "My Itemism",
+      "image": "Onlyism PNG, JPEG, JPG format images are allowed to 1MB in size.",
+      "productForm": {
+        "itemName": "Item Nameism:",
+        "enterItemName": "Enter itemism name",
+        "description": "Descriptionism:",
+        "typeHere": "Type hereism",
+        "itemManufacturer": "Item Manufacturerism:",
+        "enterManufacturer": "Enter manufacturerism",
+        "condition": "Conditionism:",
+        "new": "newism",
+        "old": "oldism",
+        "productionDate": "Production Dateism",
+        "priceOfOrigin": "Price Of Originism:",
+        "enterPriceOfOrigin": "Enter price of originism",
+        "priceOfPurchase": "Price Of Purchaseism:",
+        "enterPriceOfPurchase": "Enter price of purchaseism",
+        "priceOfCurrent": "Price Of currentism:",
+        "enterPriceOfCurrent": "Enter price of currentism",
+        "productNumber": "Product Numberism:",
+        "enterProductionNumber": "Enter production numberism",
+        "category": "Categoryism:",
+        "allCategory": "All Categoryism",
+        "subCategory": "Sub-Categoryism (if exist):",
+        "selectSubCategory": "Select Sub-Categoryism",
+        "owner": "Ownerism:",
+        "enterOwnerName": "Enter Owner Nameism",
+        "color": "Colorism:",
+        "productModel": "Product Modelism:",
+        "enterProductModel": "Enter product modelism",
+        "givenBy": "Given Byism:",
+        "enterGivenByName": "Enter given by nameism",
+        "loaner": "Loanerism:",
+        "enterLoaner": "Enter loanerism",
+        "visibility": "Visibilityism:",
+        "validation": {
+          "categoryId": "Categoryism id field is required",
+          "itemName": "Itemism name field is required",
+          "description": "Descriptionism field is required",
+          "itemManufacturer": "Itemism manufaturer field is required",
+          "yearOfOrigin": "Productionism Date field is required",
+          "priceOfPurchase": "Priceism of purchace field is required",
+          "priceOfCurrent": "Priceism of Current field is required",
+          "priceOfOrigin": "Priceism of origin field is required",
+          "itemProductionNumber": "Itemism production field number is required",
+          "owner": "Ownerism field is required",
+          "color": "Colorism field is required",
+          "itemModel": "Itemism model field is required",
+          "givenBy": "Givenbyism field is required",
+          "loanedBy": "Lonedbyism field is required"
+        }
+      }
+    }
+  },
+  "category": {
+    "title": {
+      "my_categories1": "My Categories",
+      "dashboard": "Dashboard",
+      "search_in_miukama": "Search in MIUKAMA",
+      "add_Category": "Add Category",
+      "public": "Public",
+      "private": "Private",
+      "total_category": "Total Category"
+    },
+    "table_head": {
+      "sr_no.": "Sr no.",
+      "category_name": "Category Name",
+      "public_item": "Public Item",
+      "private_item": "Private Item",
+      "description": "Description",
+      "created_at": "Created At",
+      "action": "Action",
+      "view_all": "View All ↗"
+    },
+    "add_category": {
+      "add_category_title1": "Add Category",
+      "dashboard": "Dashboard",
+      "categories": "Categories",
+      "title": "Add Category",
+      "category_name": "Category Name:",
+      "enter_category_name": "Enter category name",
+      "sub_category_(optional)": "Sub-Category (optional):",
+      "sub_category": "Sub-Category",
+      "add_new": " Add New",
+      "gallery": "Gallery:",
+      "select_gallery": "Select Gallery",
+      "description": "Description (optional):",
+      "type_here": "Type here!",
+      "visibility": "Visibility:",
+      "public": "public",
+      "private": "private",
+      "cancel": "Cancel",
+      "save": "Save",
+      "validation": {
+        "enter_category": "Please enter your category",
+        "select_gallery": "Please select your gallery",
+        "select_visibility": "Please select your visibility"
+      }
+    },
+    "edit_category": {
+      "edit_category_title1": "Edit Category",
+      "dashboard": "Dashboard",
+      "categories": "Categories",
+      "edit_category_title2": "Edit Category",
+      "category_name": "Category Name",
+      "enter_category_name": "Enter category name",
+      "sub_category_(optional)": "Sub-Category (optional):",
+      "sub_category": "Sub-Category",
+      "add_new": "Add New",
+      "gallery": "Gallery",
+      "select_gallery": "Select Gallery",
+      "description": "Description (optional):",
+      "type_here": "Type here!",
+      "visibility": "Visibility:",
+      "private": "private",
+      "public": "public",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "allCategory": "All Categories"
+  },
+  "signup": {
+    "title": "Create Account",
+    "label_first_name": "First Name",
+    "placeholder_first_name": "First Name",
+    "label_last_name": "Last Name",
+    "placeholder_last_name": "Last Name",
+    "email": "Enter email address",
+    "placeholder_email": "Enter email address",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "terms_conditions": "I have read and agree the terms & conditions",
+    "signup_button": "Signup",
+    "validation": {
+      "first_name": "Please enter your firstism name",
+      "last_name": "Please enter your lastism name",
+      "required_email": "Please enterism Email",
+      "email": "Enter valid emailism",
+      "password": "Please enter passwordism",
+      "password_message": "passwordism Should contain one capital letter,one small,one number and one symbol and special character",
+      "confirm_password": "Confirm passwordism is required field",
+      "match_confirm_password": "Passwordism and Confirm password must match",
+      "terms_conditions": "You must acceptism the Terms of Service to proceed"
+    }
+  },
+  "forget_password": {
+    "title": "Forgot Password🔒",
+    "instruction": "Enter the email address associated with your account. A link will be sent to your email address to reset your password.",
+    "email": "Email",
+    "enter_email": "Enter email address",
+    "send_link": "Send Link",
+    "back_to_login": "Back to login",
+    "validation": {
+      "required_email": "Please enter emailism address",
+      "email": "Please enter valid emailism address"
+    }
+  },
+  "redirect_email": {
+    "title": "Check your mail",
+    "instruction": "We have sent password reset instructions to your email address",
+    "go_to_email": "go to email",
+    "back_to_login": "Back to login"
+  },
+  "loginForm": {
+    "login": "Loginsm",
+    "credential": "Enter your credentialism to access your account.",
+    "or": "Orism",
+    "emailAddress": "Emailism Address",
+    "enterEmailAddress": "Enter emailism address",
+    "password": "Passwordism",
+    "forgotPassword": "Forgotism Password?",
+    "button": "Loginism",
+    "account": "Don’t have an accountism?",
+    "registerHere": "Registerism here!",
+    "validation": {
+      "email": "Please enter emailism",
+      "password": "Please enter passwordism"
+    }
+  },
+  "resetPassword": {
+    "createNewPassword": "Create Newism Password",
+    "subtitle1": "Your new passwordism should be different from previous used passwords.",
+    "newPassword": "New Passwordism:",
+    "confirmNewPassword": "Confirm New Passwordism:",
+    "button": "Reset Passwordism",
+    "validation": {
+      "requiredPassword": "New passwordism is required field",
+      "matchPassword": "Passwordism Should contain one capital letter,one small,one number and one symbol",
+      "requiredConfirmPassword": "Confirmism new password is required field",
+      "matchConfirmPassword": "Passwordism and Confirm must match"
+    }
+  },
+  "my_profile": {
+    "userProfile": "User Profile",
+    "addUser": "Add User",
+    "edit": "Edit Profile",
+    "title": " My Profile",
+    "first_name": "First Name:",
+    "placeholder_first_name": "First Name",
+    "last_name": "Last Name:",
+    "placeholder_last_name": "Last Name",
+    "email": "Email",
+    "placeholder_email": "sample@gmail.com",
+    "contact_number": "Contact Number:",
+    "placeholder_contact": "14655778152",
+    "address": "Address:",
+    "placeholder_address": "USA LLC Township",
+    "cancel": "Cancel",
+    "save": "Save",
+    "validation": {
+      "first_name": "Please Enter First Name",
+      "last_name": "Please Enter Last Name",
+      "valid_email": "Please Enter Valid Email",
+      "enter_email": "Please Enter Email",
+      "not_valid_email": "Entered Email is not Valid",
+      "contact_length": "Please enter contact no between 7 to 10 digits",
+      "valid_contact_number": "Please Enter Valid Contact Number",
+      "not_valid_contact": "Contact number is not valid",
+      "valid_address": "Please Enter Valid Address"
+    }
+  },
+  "setting": {
+    "settings": "Settingsism",
+    "dashboard": "Dashboardism",
+    "editProfile": "Editism Profile",
+    "changePassword": {
+      "changePassword": "Changeism Password",
+      "currentPassword": "Currentism Password:",
+      "enterCurrentPassword": "Enter currentism password",
+      "newPassword": "New Passwordism:",
+      "enterNewPassword": "Enter newism password",
+      "confirmNewPassword": "Confirmism New Password:",
+      "confirmNewPasswords": "Confirmism new password",
+      "validation": {
+        "oldPassword": "Currentism password is required field",
+        "oldPasswordMin": "Currentism password must be at least 8 characters",
+        "oldPasswordMatches": "Newism password Should contain one capital letter,one small,one number and one symbole",
+        "password": "New passwordism is required field",
+        "passwordMin": "New passwordism must be at least 8 characters",
+        "passwordMatches": "New passwordism Should contain one capital letter,one small,one number and one symbole",
+        "confirmPassword": "Confirm newism password is required field",
+        "confirmPasswordOneOf": "Newism password and Confirm new password must match",
+        "confirmPasswordNotOneOf": "Oldism password and new password should be different"
+      },
+      "button": {
+        "cancel": "Cancelism",
+        "save": "Saveism"
+      }
+    },
+    "notifications": {
+      "notifications": "Notificationsism",
+      "orderConfirmation": "Orderism Confirmation",
+      "orderConfirmationMessage": "Youism will be notifications when customer order any products",
+      "orderDelivered": "Orderism Delivered",
+      "orderDeliveredMessage": "Youism will be notifications once the order is delivered",
+      "emailNotification": "Emailism Notification",
+      "emailNotificationMessage": "Turnism on email notification to get updates through email"
+    }
+  },
+  "faq": {
+    "title": "Frequentlyism Asked Questions",
+    "subtitle": "Home/FAQsism",
+    "description1": "Findism solutions to common problems and queries in our FAQ",
+    "description2": " section.Saveism time and find answers to frequently asked",
+    "description3": "questionsism in our FAQ page."
+  },
+  "user": {
+    "title": {
+      "users": "Users",
+      "myProfile": "Add My Profile",
+      "addProfile": "Add New Profile",
+      "editProfile": "Edit Profile"
+    },
+    "dataTitle": {
+      "admin": "Admin",
+      "dashboard": {
+        "myProfile": "Dashboard"
+      },
+      "user": "Admin > User"
+    },
+    "button": {
+      "addUser": "Add User"
+    },
+    "displayList": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "contact": "Contact",
+      "address": "Address",
+      "action": "Action"
+    }
+  }
+}

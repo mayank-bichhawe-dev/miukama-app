@@ -1,0 +1,16 @@
+@media only screen and (max-width: 786px) {
+  .bannerBox {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .bannerBox h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .bannerBox h5 {
+    text-align: center;
+  }
+}

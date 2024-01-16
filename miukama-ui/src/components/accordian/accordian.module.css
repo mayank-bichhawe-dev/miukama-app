@@ -1,0 +1,29 @@
+.accordionSummary {
+  padding: '32px';
+  min-height: 0;
+  /* '& .MuiAccordionSummary-content': {
+    margin: 0,
+  }; */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) -1.52%,
+    rgba(255, 255, 255, 0.1) 104.35%
+  );
+  border: 1px solid #ffffff99;
+  backdrop-filter: blur(100px);
+}
+
+.accordionSummary .MuiAccordionSummary-content {
+  margin: 0;
+}
+
+.accordionDetails {
+  border: 1px solid #ffffff99;
+  padding: 19px 0px 19px 32px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) -1.52%,
+    rgba(255, 255, 255, 0.1) 104.35%
+  );
+  backdrop-filter: blur(100px);
+}

@@ -1,0 +1,1091 @@
+{
+  "info": {
+    "_postman_id": "8bb423ab-6b35-44c4-97ad-f44aa53255ae",
+    "name": "miukama api list",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "gallery",
+      "item": [
+        {
+          "name": "get-gallery",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/gallery",
+              "host": ["{{baseURL}}"],
+              "path": ["gallery"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-gallery-by-id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/gallery/1",
+              "host": ["{{baseURL}}"],
+              "path": ["gallery", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-gallery-by-id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\":\"test\",\n    \"description\":\"new phone\",\n    \"visibility\":false\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/gallery/1",
+              "host": ["{{baseURL}}"],
+              "path": ["gallery", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "gallery-delete-by-id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/gallery/12",
+              "host": ["{{baseURL}}"],
+              "path": ["gallery", "12"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add-gallery",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\":\"1\",\n    \"description\":\"true\",\n    \"visibility\":true\n}\n\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/gallery",
+              "host": ["{{baseURL}}"],
+              "path": ["gallery"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "category",
+      "item": [
+        {
+          "name": "get-all-category",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/category",
+              "host": ["{{baseURL}}"],
+              "path": ["category"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-category-by-id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/category/11",
+              "host": ["{{baseURL}}"],
+              "path": ["category", "11"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-category-by-id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"categoryName\": \"Hello testing\",\n    \"galleryId\": 1,\n    \"description\": \"all brand phone are avaible\",\n    \"visibility\": true,\n    \"subCategories\": [\n        {\n            \"id\": 21,\n            \"name\": \"test-a-update-fine\"\n        }\n    ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/category/11",
+              "host": ["{{baseURL}}"],
+              "path": ["category", "11"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add-category",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\"categoryName\":\"Hello testing\",\n\"galleryId\":1,\n\"description\":\"all brand phone are avaible\",\n\"visibility\":true,\n\"subCategories\": [\"test-a\", \"test-b\", \"test-c\", \"test-d\"]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/category",
+              "host": ["{{baseURL}}"],
+              "path": ["category"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete-category-by-id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/category/5",
+              "host": ["{{baseURL}}"],
+              "path": ["category", "5"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "product",
+      "item": [
+        {
+          "name": "get-all-product",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/product/?categoryId=1",
+              "host": ["{{baseURL}}"],
+              "path": ["product", ""],
+              "query": [
+                {
+                  "key": "itemName",
+                  "value": "s",
+                  "disabled": true
+                },
+                {
+                  "key": "categoryId",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-product-by-id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/product/4",
+              "host": ["{{baseURL}}"],
+              "path": ["product", "4"],
+              "query": [
+                {
+                  "key": "v",
+                  "value": "a",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add-product",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{       \"categoryId\":1,\n        \"itemName\": \"sony\",\n        \"itemModel\": \"34xdfsfc\",\n        \"itemProductionNumber\": \"234531344\",\n        \"itemManufacturer\": \"bharat\",\n        \"yearOfOrigin\": \"2023-07-22\",\n        \"color\": \"blue\",\n        \"condition\": \"be care\",\n        \"owner\": \"vidhushi\",\n        \"givenBy\": \"bindu\",\n        \"loanedBy\": \"kittu\",\n        \"description\": \"asdfghjklpoiuytrewmnbvcxz\",\n        \"priceOfOrigin\": \"23000\",\n        \"priceOfPurchase\": \"87000\",\n        \"priceOfCurrent\": \"55000\",\n        \"visibility\": false\n    }",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/product/",
+              "host": ["{{baseURL}}"],
+              "path": ["product", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-product-by-id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"categoryId\": 2,\n        \"itemName\": \"iphone14\",\n        \"itemModel\": \"34xdfsfc\",\n        \"itemProductionNumber\": \"234531344\",\n        \"itemManufacturer\": \"bharat\",\n        \"yearOfOrigin\": \"2023-07-22\",\n        \"Color\": \"red\",\n        \"Condition\": \"be read carefully\",\n        \"Owner\": \"vidhushi\",\n        \"GivenBy\": \"bindu\",\n        \"LoanedBy\": \"kittu\",\n        \"Description\": \"asdfghjklpoiuytrewmnbvcxz\",\n        \"PriceOfOrigin\": \"23000\",\n        \"PriceOfPurchase\": \"87000\",\n        \"PriceOfCurrent\": \"55000\",\n         \"visibility\": false\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/product/1",
+              "host": ["{{baseURL}}"],
+              "path": ["product", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "deleted-product-by-id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/product/2",
+              "host": ["{{baseURL}}"],
+              "path": ["product", "2"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "notification",
+      "item": [
+        {
+          "name": "count-notification",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/notification/count",
+              "host": ["{{baseURL}}"],
+              "path": ["notification", "count"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-notification-by-id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/notification/1",
+              "host": ["{{baseURL}}"],
+              "path": ["notification", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-All-notification",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/notification/",
+              "host": ["{{baseURL}}"],
+              "path": ["notification", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add-notification",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"title\": \"phone11\",\n    \"description\": \"new moblie phone launch\",\n    \"read\": false,\n    \"isDelete\": false\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/notification/",
+              "host": ["{{baseURL}}"],
+              "path": ["notification", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-notification-by-id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"title\": \"phone1\",\n    \"description\": \"new moblie phone launch\",\n    \"read\": true,\n    \"isDelete\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/notification/1",
+              "host": ["{{baseURL}}"],
+              "path": ["notification", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete-notification-by-id",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/notification/1",
+              "host": ["{{baseURL}}"],
+              "path": ["notification", "1"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "wishlist",
+      "item": [
+        {
+          "name": "add-wishlist",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"productId\":1,\n    \"ownerName\":\"vidhushi jain\",\n    \"totalItem\":1\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/wishlist/",
+              "host": ["{{baseURL}}"],
+              "path": ["wishlist", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-all-wishlist",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/wishlist/",
+              "host": ["{{baseURL}}"],
+              "path": ["wishlist", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-wishlist-by-id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/wishlist/1?",
+              "host": ["{{baseURL}}"],
+              "path": ["wishlist", "1"],
+              "query": [
+                {
+                  "key": "",
+                  "value": null
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-wishlist-by-id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"productId\":1\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/wishlist/2",
+              "host": ["{{baseURL}}"],
+              "path": ["wishlist", "2"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete-wishlist-by-id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/wishlist/1",
+              "host": ["{{baseURL}}"],
+              "path": ["wishlist", "1"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "FAQs",
+      "item": [
+        {
+          "name": "add-FAQ",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"serialNumber\":32,\n    \"question\":\"what is a java?\",\n    \"answer\":\"Because Java is a free-to-use and a versatile language, it builds localized and distributed software. Some common uses of Java include:\",\n    \"enable\":true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/faq",
+              "host": ["{{baseURL}}"],
+              "path": ["faq"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-all-FAQs",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/faq/user",
+              "host": ["{{baseURL}}"],
+              "path": ["faq", "user"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-FAQs-by-id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/faq/1",
+              "host": ["{{baseURL}}"],
+              "path": ["faq", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "admin-get-all-id",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/faq/admin/get-all",
+              "host": ["{{baseURL}}"],
+              "path": ["faq", "admin", "get-all"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-FAQs-by-id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"serialNumber\":9,\n    \"question\": \" whis is API?\",\n    \"answer\": \"APPLICATION PROTOCAL INTERFACE\",\n    \"unable\":false}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/faq/1",
+              "host": ["{{baseURL}}"],
+              "path": ["faq", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete-FAQs-by-Id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/faq/3",
+              "host": ["{{baseURL}}"],
+              "path": ["faq", "3"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "auth",
+      "item": [
+        {
+          "name": "login",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "pm.test(\"Your test name\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    var bodyToken = jsonData.data.token;",
+                  "    pm.environment.set(\"token\", bodyToken);",
+                  "});",
+                  "",
+                  ""
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"email\": \"shivam@gmail.com\",\n    \"password\": \"Shivam@1\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/auth/login",
+              "host": ["{{baseURL}}"],
+              "path": ["auth", "login"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "user-logout",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/auth/logout",
+              "host": ["{{baseURL}}"],
+              "path": ["auth", "logout"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "forget-password",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"email\": \"shivam@gmail.com\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/auth/password/forgot",
+              "host": ["{{baseURL}}"],
+              "path": ["auth", "password", "forgot"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "register",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"firstName\": \"Shivam\",\n    \"lastName\": \"Gupta\",\n    \"email\": \"shivam@gmail.com\",\n    \"contact\": \"9993330228\",\n    \"address\": \"indore  \",\n    \"password\": \"Shivam@1\",\n    \"confirmPassword\": \"Shivam@1\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/auth/register",
+              "host": ["{{baseURL}}"],
+              "path": ["auth", "register"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-password-after-forget",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"password\": \"mayank@3\",\n    \"confirmPassword\": \"mayank@3\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/auth/password/reset/cbf313e2c108e85c661c066151534516db36c6ce",
+              "host": ["{{baseURL}}"],
+              "path": [
+                "auth",
+                "password",
+                "reset",
+                "cbf313e2c108e85c661c066151534516db36c6ce"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "update-user-profile",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"firstName\":\"mayank\",\n    \"lastName\": \"khatri\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/user/me/update",
+              "host": ["{{baseURL}}"],
+              "path": ["user", "me", "update"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "UserRoutes",
+      "item": [
+        {
+          "name": "change-or-update-password",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{   \n    \"oldPassword\": \"Shivam@1\",\n    \"password\": \"Shivam@123\",\n    \"confirmPassword\": \"Shivam@123\" \n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/auth/password/update",
+              "host": ["{{baseURL}}"],
+              "path": ["auth", "password", "update"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get-user-details",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {
+              "host": true,
+              "user-agent": true,
+              "accept": true,
+              "accept-encoding": true,
+              "connection": true
+            }
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{token}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": {
+              "raw": "{{baseURL}}/user/me",
+              "host": ["{{baseURL}}"],
+              "path": ["user", "me"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "sellProducts (NOT DEPLOYED YET",
+      "item": [
+        {
+          "name": "all-get-sellProduct",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/sellProduct/",
+              "host": ["{{baseURL}}"],
+              "path": ["sellProduct", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add-sell-product",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"productId\":4\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{baseURL}}/sellProduct/",
+              "host": ["{{baseURL}}"],
+              "path": ["sellProduct", ""]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "delete-sellProduct-by-id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseURL}}/sellProduct/1",
+              "host": ["{{baseURL}}"],
+              "path": ["sellProduct", "1"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "{{baseURL}}/health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseURL}}/health",
+          "host": ["{{baseURL}}"],
+          "path": ["health"]
+        }
+      },
+      "response": []
+    }
+  ]
+}

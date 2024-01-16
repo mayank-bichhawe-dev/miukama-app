@@ -1,0 +1,9 @@
+.autoImage {
+  width: auto !important;
+  height: auto !important;
+  cursor: pointer;
+}
+.form_error {
+  color: red;
+  text-align: left;
+}
